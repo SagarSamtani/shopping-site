@@ -12,7 +12,7 @@ const TotalCard = props => {
     classes = useStyles(),
     itemsTotal = cartItems.map(item => {
       return (
-        <div className={classes.listItem}>
+        <div key={item.id} className={classes.listItem}>
           <span className={classes.label}>{item.name}</span>{" "}
           <span className={classes.textMargin}>
             {item.currency}
@@ -26,7 +26,7 @@ const TotalCard = props => {
       );
     });
   itemsTotal.push(
-    <div className={classes.listItem}>
+    <div key="total-label" className={classes.listItem}>
       <span className={classes.label}>Total </span>
       <span className={classes.textMargin}>= {getTotal(cartItems)} </span>
     </div>
