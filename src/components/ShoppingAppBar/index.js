@@ -20,7 +20,7 @@ const ShoppingAppBar = props => {
     <AppBar className={classes.appBar} position="static">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          <Link className={classes.title} href={`${process.env.PUBLIC_URL}/dashboard`}>
+          <Link className={classes.title} href="/shopping-site">
             AegonLife Shopping
           </Link>
         </Typography>

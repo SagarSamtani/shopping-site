@@ -3,13 +3,13 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const Cart = lazy(() => import("components/Cart"));
 const Dashboard = lazy(() => import("components/Dashboard"));
-console.log("process.env.PUBLIC_URL routesjs", process.env.PUBLIC_URL)
+console.log("process.env.PUBLIC_URL routesjs", process.env.PUBLIC_URL);
 const Routes = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
     <Suspense fallback={<div> Loading... </div>}>
       <Switch>
-        <Route exact path="/cart" component={Cart} />
-        <Route path="/" component={Dashboard} />
+        <Route exact path={`${process.env.PUBLIC_URL}/cart`} component={Cart} />
+        <Route path={process.env.PUBLIC_URL} component={Dashboard} />
       </Switch>
     </Suspense>
   </BrowserRouter>
