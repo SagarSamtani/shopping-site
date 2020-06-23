@@ -66,3 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+###############
+Requirements - 
+
+1. Online shopping 
+2. Cart (Number qtys & price )
+3. API call for product list (Product name, Product Iamge, Price, Description)
+4. Add to cart (Specify quantity)
+5. Buy 
+6. 

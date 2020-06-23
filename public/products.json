@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Shoes",
+        "image": "shoes.png",
+        "price": "499",
+        "currency": "₹",
+        "description": "It is Woodland shoes"
+    },
+    {
+        "id": 2,
+        "name": "Wallet",
+        "image": "wallet.png",
+        "price": "299",
+        "currency": "₹",
+        "description": "It is Woodland wallet"
+    },
+    {
+        "id": 3,
+        "name": "Shirt",
+        "image": "shirt.png",
+        "price": "999",
+        "currency": "₹",
+        "description": "It is Allen solley shirt"
+    },
+    {
+        "id": 4,
+        "name": "Jeans",
+        "image": "jeans.png",
+        "price": "1299",
+        "currency": "₹",
+        "description": "Men Jeans"
+    },
+    {
+        "id": 5,
+        "name": "Cap",
+        "image": "cap.png",
+        "price": "99",
+        "currency": "₹",
+        "description": "Adidas Cap"
+    },
+    {
+        "id": 6,
+        "name": "Watch",
+        "image": "watch.png",
+        "price": "2999",
+        "currency": "₹",
+        "description": "A Rolex watch"
+    }
+]

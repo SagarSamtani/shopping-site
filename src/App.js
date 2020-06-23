@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import Routes from "routes/routes";
+import ShoppingAppBar from "components/ShoppingAppBar";
 
-function App() {
+const App = props => {
+  const { match } = props;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <ShoppingAppBar />
+      <Routes match={match} />
+    </Fragment>
   );
-}
+};
 
 export default App;
