@@ -8,7 +8,7 @@ const Routes = () => (
   <BrowserRouter>
     <Suspense fallback={<div> Loading... </div>}>
       <Switch>
-        <Route exact path="/cart" component={Cart} />
+        <Route exact path="/shopping-site/cart" component={Cart} />
         <Route default path="/" component={Dashboard} />
       </Switch>
     </Suspense>

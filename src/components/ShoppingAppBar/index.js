@@ -20,12 +20,12 @@ const ShoppingAppBar = props => {
     <AppBar className={classes.appBar} position="static">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          <Link className={classes.title} href="/dashboard">
+          <Link className={classes.title} href="/shopping-site/dashboard">
             AegonLife Shopping
           </Link>
         </Typography>
 
-        <Link href="/cart">
+        <Link href="/shopping-site/cart">
           <Badge badgeContent={getQuantities(cartItems)} color="secondary">
             <img
               alt="shoppingCartImg"
