@@ -5,10 +5,10 @@ const Cart = lazy(() => import("components/Cart"));
 const Dashboard = lazy(() => import("components/Dashboard"));
 
 const Routes = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Suspense fallback={<div> Loading... </div>}>
       <Switch>
-        <Route exact path="/shopping-site/cart" component={Cart} />
+        <Route exact path="/cart" component={Cart} />
         <Route default path="/" component={Dashboard} />
       </Switch>
     </Suspense>
