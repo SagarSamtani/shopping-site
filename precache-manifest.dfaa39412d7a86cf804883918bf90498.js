@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "debbc6d67d16af23fc06d845d028d302",
+    "revision": "063145729422af7eab6ab76f477aded0",
     "url": "/shopping-site/index.html"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shopping-site/static/js/4.3faf0fb7.chunk.js"
   },
   {
-    "revision": "6b2429b503166e8f65f3",
-    "url": "/shopping-site/static/js/5.f9a42b91.chunk.js"
+    "revision": "65c322150f957601b8bb",
+    "url": "/shopping-site/static/js/5.8041c40a.chunk.js"
   },
   {
     "revision": "f3d13f6896ba39af0bd4",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shopping-site/static/js/main.aa856ae3.chunk.js"
   },
   {
-    "revision": "6fae6681dd2cbf39e72e",
-    "url": "/shopping-site/static/js/runtime-main.da072e63.js"
+    "revision": "9069c0de4d44c2e404db",
+    "url": "/shopping-site/static/js/runtime-main.e9c74e2e.js"
   },
   {
     "revision": "683664997bb0b7334273b44c65960d23",
