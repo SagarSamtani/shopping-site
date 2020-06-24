@@ -35,7 +35,7 @@ const TotalCard = props => {
     <Card className={classes.totalCard}>
       {itemsTotal}
       <Button disabled variant="outlined" className={classes.addBtn}>
-        Procees to payment
+        Proceed to payment
       </Button>
     </Card>
   );
