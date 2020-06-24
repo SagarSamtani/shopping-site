@@ -22,7 +22,7 @@ const ShoppingAppBar = props => {
     <AppBar className={classes.appBar} position="static">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          <Link className={classes.title} href="/">
+          <Link className={classes.title} href="#/">
             AegonLife Shopping
           </Link>
         </Typography>
