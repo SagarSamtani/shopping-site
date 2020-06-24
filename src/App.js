@@ -6,7 +6,7 @@ import { HashRouter } from "react-router-dom";
 const App = props => {
   // const { match } = props;
   return (
-    <HashRouter >
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <ShoppingAppBar />
       <Routes />
     </HashRouter>
