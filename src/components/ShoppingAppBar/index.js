@@ -15,17 +15,19 @@ const useStyles = makeStyles(theme => appBarStyles(theme));
 const ShoppingAppBar = props => {
   const { cartItems } = props,
     classes = useStyles();
-  console.log("process.env.PUBLIC_URL", process.env.PUBLIC_URL)
+
+  console.log("process.env.PUBLIC_URL", process.env.PUBLIC_URL);
+
   return (
     <AppBar className={classes.appBar} position="static">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          <Link className={classes.title} href={`${process.env.PUBLIC_URL}/`}>
+          <Link className={classes.title} href="/">
             AegonLife Shopping
           </Link>
         </Typography>
 
-        <Link href={`${process.env.PUBLIC_URL}/cart`}>
+        <Link href="#/cart">
           <Badge badgeContent={getQuantities(cartItems)} color="secondary">
             <img
               alt="shoppingCartImg"
