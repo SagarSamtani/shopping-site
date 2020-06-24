@@ -1,0 +1,2 @@
+(this["webpackJsonpaegon-app"]=this["webpackJsonpaegon-app"]||[]).push([[7],{143:function(a,e,t){"use strict";t.r(e);var n=t(0),r=t.n(n),c=t(87),o=t(3);e.default=function(){var a=Object(o.f)();return r.a.createElement("div",null,r.a.createElement("h3",null,"No match for ",a.pathname),r.a.createElement(c.a,{href:"/"},"Back to Dashboard"))}}}]);
+//# sourceMappingURL=7.70b5ac09.chunk.js.map

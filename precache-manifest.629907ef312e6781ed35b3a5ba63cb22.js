@@ -1,43 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf1cff507d6a7e428c8b8f6d06a01839",
+    "revision": "928b57fb25445fbf31735d931593341f",
     "url": "/shopping-site/index.html"
   },
   {
-    "revision": "08d0f792cb4955489fc8",
+    "revision": "3223cfc65c337d6a9bd3",
     "url": "/shopping-site/static/css/main.77153fc7.chunk.css"
   },
   {
-    "revision": "1faa01a8c0c4c48eaebe",
-    "url": "/shopping-site/static/js/0.0f6b226a.chunk.js"
+    "revision": "f69f1b277d683ebc2e24",
+    "url": "/shopping-site/static/js/0.29b67be5.chunk.js"
   },
   {
-    "revision": "4fc1c6528fc3f8e638f1",
-    "url": "/shopping-site/static/js/3.4e3d5a57.chunk.js"
+    "revision": "06a1ba5ba461dd78a2cd",
+    "url": "/shopping-site/static/js/3.19285ac6.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/shopping-site/static/js/3.4e3d5a57.chunk.js.LICENSE.txt"
+    "url": "/shopping-site/static/js/3.19285ac6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e564025d982a14f5a5fd",
-    "url": "/shopping-site/static/js/4.3faf0fb7.chunk.js"
+    "revision": "b89e3641d7b7d785c0bb",
+    "url": "/shopping-site/static/js/4.1428d1ab.chunk.js"
   },
   {
-    "revision": "65c322150f957601b8bb",
-    "url": "/shopping-site/static/js/5.8041c40a.chunk.js"
+    "revision": "ff558975781162c10ac1",
+    "url": "/shopping-site/static/js/5.63cb3742.chunk.js"
   },
   {
-    "revision": "f3d13f6896ba39af0bd4",
-    "url": "/shopping-site/static/js/6.02380b64.chunk.js"
+    "revision": "1093fb049e2610178dd5",
+    "url": "/shopping-site/static/js/6.ceb85304.chunk.js"
   },
   {
-    "revision": "08d0f792cb4955489fc8",
-    "url": "/shopping-site/static/js/main.8ee5e177.chunk.js"
+    "revision": "f2dd3ace934d8730a80e",
+    "url": "/shopping-site/static/js/7.70b5ac09.chunk.js"
   },
   {
-    "revision": "9069c0de4d44c2e404db",
-    "url": "/shopping-site/static/js/runtime-main.e9c74e2e.js"
+    "revision": "3223cfc65c337d6a9bd3",
+    "url": "/shopping-site/static/js/main.e7da90c7.chunk.js"
+  },
+  {
+    "revision": "d69faf7d32f99f5a2a61",
+    "url": "/shopping-site/static/js/runtime-main.1003c462.js"
   },
   {
     "revision": "683664997bb0b7334273b44c65960d23",
